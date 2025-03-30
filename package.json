@@ -1,0 +1,20 @@
+{
+  "name": "typescript-type-tools",
+  "version": "0.0.6",
+  "description": "",
+  "main": "index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "index.d.ts",
+    "package.json",
+    "readme.md"
+  ],
+  "author": "dt",
+  "license": "ISC",
+  "keywords": ["utility types", "typescript type tools", "typescript", "typescript utility types"]
+}
