@@ -7,3 +7,5 @@ export type TypeAssign<A, B extends Object> = Omit<A, keyof B> & B;
 export type PartOptional<T, K extends keyof T> = Partial<Pick<T, K>> & Omit<T, K>;
 
 export type PartRequired<T, K extends keyof T> = Required<Pick<T, K>> & Omit<T, K>;
+
+export type PartRequiredOtherOptional<T, K extends keyof T> = PartRequired<T, K> & PartOptional<T, Exclude<keyof T, K>>;

@@ -1,6 +1,6 @@
 {
   "name": "typescript-type-tools",
-  "version": "0.0.7",
+  "version": "0.0.9",
   "description": "",
   "main": "index.d.ts",
   "scripts": {
@@ -20,5 +20,10 @@
   },
   "author": "dt",
   "license": "ISC",
-  "keywords": ["utility types", "typescript type tools", "typescript", "typescript utility types"]
+  "keywords": [
+    "utility types",
+    "typescript type tools",
+    "typescript",
+    "typescript utility types"
+  ]
 }
